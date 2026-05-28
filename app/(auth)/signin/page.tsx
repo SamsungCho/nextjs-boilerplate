@@ -8,7 +8,7 @@ import {
   CardDescription,
 } from "@/components/ui/card"
 
-export default function SignInPage() {
+export default async function SignInPage() {
   return (
     <main className="flex min-h-screen items-center justify-center">
       <Card className="w-full max-w-sm">
