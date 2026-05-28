@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir C:\\\\Download\\\\260528\\\\nextjs-boilerplate *)",
+      "Bash(dir C:\\\\Download\\\\260528\\\\nextjs-boilerplate\\\\app *)",
+      "Bash(node -e ' *)",
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add card)",
+      "Bash(git show *)",
+      "Bash(npx prisma *)",
+      "Bash(cat .env.example)",
+      "Bash(cat .env.local.example)",
+      "Bash(python3 -c \"import json,sys; p=json.load\\(sys.stdin\\); print\\(p['version']\\)\")",
+      "Bash(findstr /i \"next-auth\\\\|@auth\\\\|prisma\")",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Download\\\\260528\\\\nextjs-boilerplate\\\\app\\\\\\(auth\\)\\\\signin\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Download\\\\260528\\\\nextjs-boilerplate\\\\app\\\\\\(protected\\)\\\\dashboard\")",
+      "Bash(Write-Output \"Directories created\")",
+      "PowerShell(New-Item *)",
+      "Bash(npm test *)",
+      "Bash(npx vitest *)",
+      "Bash(npm run *)",
+      "Bash(del middleware.ts)",
+      "Bash(del prisma.config.ts)"
+    ]
+  }
+}

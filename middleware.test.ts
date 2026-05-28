@@ -4,7 +4,7 @@ vi.mock("@/lib/auth", () => ({
   auth: vi.fn(),
 }))
 
-const { config } = await import("./middleware")
+const { config } = await import("./proxy")
 
 describe("middleware config", () => {
   it("protects dashboard routes", () => {
