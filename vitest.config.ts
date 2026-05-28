@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   test: {
     environment: "node",
+    exclude: ["**/.codex/**", "**/node_modules/**"],
   },
   resolve: {
     alias: {
